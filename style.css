@@ -1,0 +1,265 @@
+body{
+    font-family: Jakarta, sans-serif;
+    background-color: #f2f7f8;
+  }
+  .body_container{
+    margin-top: 1rem;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .container{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1165px;
+    margin: 0 auto;
+  }
+  .nav-a {
+    display: flex;
+  }
+  
+  .ul{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin-left: 2rem;
+  }
+  
+  
+  button:first-child{
+    color: #0c1825;
+    border: 1px solid #0c1825;
+    border-radius: 12px;
+    padding: 15px 22px
+  }
+  
+  button:last-child{
+    background-color: #122231;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 22px;
+  }
+  
+  section{
+    margin-top: 5rem;
+    min-height: 400px;
+  }
+  section.h1{
+    display: flex;
+    gap: 100px;
+  }
+  
+  .text{
+    flex-basis: 100%;
+    margin-top: 0;
+    display: inline-block;
+  }
+  .text h1{
+    font-size: 46px;
+    line-height: 1.2;
+    width: 80%;
+  }
+  .test p{
+    font-size: 20px;
+    width: 80%;
+  }
+  .buttons button{
+    margin: 0 8px;
+    background-color: #122231;
+    color: white;
+    border-radius: 10px;
+    padding: 16px 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  button img{
+    display: inline-block;
+  
+  }
+  
+  .img{
+    flex-basis: 100%;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .big_image{
+    max-width: 500px;
+    margin-left: 250px;
+  }
+  
+  .img img:nth-child(2){
+    width: 200px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+  }
+  
+  .img img:nth-child(3){
+    width: 200px;
+    position: absolute;
+    top: 90px;
+    right: -30px;
+  }
+  .img img:nth-child(4){
+    width: 200px;
+    position: absolute;
+    top: 330px;
+    left: 200px;
+  }
+  
+  .img img:nth-child(5){
+    width: 200px;
+    position: absolute;
+    top: 332px;
+    right: -40px;
+  }
+  .img img:last-child{
+    width: 200px;
+    position: absolute;
+    bottom: -20px;
+    left: 425px;
+  }
+  body{
+    font-family: Jakarta, sans-serif;
+    background-color: #f2f7f8;
+    justify-content: space-between;
+}
+
+.container-2{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1165px;
+    margin: 0 auto;
+  }
+
+  .container-2{
+    gap: 2rem;
+    text-align:left;
+  }
+
+section{
+    margin-top: 5rem;
+    min-height: 400px;
+  }
+  section.h1{
+    display: flex;
+    gap: 100px;
+  }
+
+.text-1 {
+    margin-top: 20px;
+    flex-basis: 100%;
+    display: inline-block;
+}
+
+.text-h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    width: 80%;
+    margin-bottom: 20px;}
+
+.text-p {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-size: 30px;
+    width: 80%;
+    margin-top: 20px; 
+} 
+
+.first-section {
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    font-size: 29px;
+}
+
+.fsl{
+    padding-left: 50px;
+    justify-content: center;
+    align-content: center;
+    height: 450px;
+    flex-basis: 100%;
+}
+
+.piggy-bank{
+    margin-left: 500px;
+    size: 290px;
+    width: 290px;
+
+}
+.fw-link{
+    gap: 3rem;
+    justify-content: space-between;
+    color: black;
+}
+.fsr {
+    margin-right: 30px;
+    flex-basis: 100%;
+    border-radius: 28px;
+    color: white;
+    padding: 0;
+    background-color: #0f60db;
+
+}
+
+.fsl h1{
+    margin: 50px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-top: 0;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 3rem;
+    width: 70%;
+}
+
+.fsl p{
+    margin-top: 0;
+    font-size: 25px;
+    width: 60%;
+    margin-left:100px;
+}
+
+.fsr-4{
+    background-color: #2295f2;
+    margin-right: 30px;
+    flex-basis: 100%;
+    border-radius: 28px;
+    color: white;
+    padding: 0;
+}
+
+
+.fsr-5{
+    background-color: #10b259;
+    margin-right: 30px;
+    flex-basis: 100%;
+    border-radius: 28px;
+    color: white;
+    padding: 0;
+}
+
+.fsr-6{
+    background-color: #ea4fa2;
+    margin-right: 30px;
+    flex-basis: 100%;
+    border-radius: 28px;
+    color: white;
+    padding: 0;
+}
+
+.fsr-7{
+    background-color: #0c1825;
+    margin-right: 30px;
+    flex-basis: 100%;
+    border-radius: 28px;
+    color: white;
+    padding: 0;
+}
